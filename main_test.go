@@ -12,7 +12,7 @@ func TestMain_AddNumbers(t *testing.T) {
 }
 
 func TestMain_SubNumbers(t *testing.T) {
-	want := 3
+	want := 10
 	got := subNumbers(13, 3)
 
 	if got != want {

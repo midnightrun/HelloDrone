@@ -11,5 +11,5 @@ func addNumbers(a, b int) int {
 }
 
 func subNumbers(a, b int) int {
-	return a + b
+	return a - b
 }
