@@ -9,3 +9,7 @@ func main() {
 func addNumbers(a, b int) int {
 	return a + b
 }
+
+func subNumbers(a, b int) int {
+	return a + b
+}
