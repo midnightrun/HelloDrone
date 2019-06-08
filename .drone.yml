@@ -2,8 +2,7 @@ kind: pipeline
 name: HelloDrone
 
 steps:
-        - name: backend
-          image: golang
-          commands:
-                  - go build
-                  - go test
+  - name: backend
+    commands:
+      - go build
+      - go test
